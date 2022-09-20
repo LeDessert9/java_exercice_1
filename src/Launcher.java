@@ -81,6 +81,7 @@ public class Launcher{
 			for (int i = 0; i<index; i++){
 				System.out.print(tmp[i]+"\n");
 				if (histo[i]>histo[c] && tmp[i]!=" "){
+					System.out.print("\n");
 					if (histo[i]>histo[b]){
 						if(histo[i]>histo[a]){
 							c = b;
